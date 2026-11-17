@@ -1,0 +1,182 @@
+{
+  "rules": {
+    "overall": {
+      "n": 3966,
+      "detection_rate": 0.12829736211031176,
+      "false_positive_rate": 0.009573542210617928,
+      "precision": 0.9067796610169492,
+      "f1": 0.22478991596638656,
+      "accuracy": 0.6278366111951589
+    },
+    "injection": {
+      "n": 60,
+      "detection_rate": 1.0,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "legit": {
+      "n": 60,
+      "detection_rate": null,
+      "false_positive_rate": 0.0,
+      "precision": null,
+      "f1": null,
+      "accuracy": 1.0
+    },
+    "legit_real": {
+      "n": 2238,
+      "detection_rate": null,
+      "false_positive_rate": 0.009830205540661306,
+      "precision": null,
+      "f1": null,
+      "accuracy": 0.9901697944593387
+    },
+    "phish_ai": {
+      "n": 60,
+      "detection_rate": 0.5,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 0.6666666666666666,
+      "accuracy": 0.5
+    },
+    "phish_classic": {
+      "n": 60,
+      "detection_rate": 1.0,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "phish_real": {
+      "n": 1488,
+      "detection_rate": 0.043010752688172046,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 0.08247422680412372,
+      "accuracy": 0.043010752688172046
+    },
+    "seconds": 5.2,
+    "engine": "rules"
+  },
+  "ml": {
+    "overall": {
+      "n": 3966,
+      "detection_rate": 0.973621103117506,
+      "false_positive_rate": 0.022193211488250653,
+      "precision": 0.9695522388059702,
+      "f1": 0.9715824110080766,
+      "accuracy": 0.9760463943519919
+    },
+    "injection": {
+      "n": 60,
+      "detection_rate": 1.0,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "legit": {
+      "n": 60,
+      "detection_rate": null,
+      "false_positive_rate": 0.0,
+      "precision": null,
+      "f1": null,
+      "accuracy": 1.0
+    },
+    "legit_real": {
+      "n": 2238,
+      "detection_rate": null,
+      "false_positive_rate": 0.022788203753351208,
+      "precision": null,
+      "f1": null,
+      "accuracy": 0.9772117962466488
+    },
+    "phish_ai": {
+      "n": 60,
+      "detection_rate": 0.5,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 0.6666666666666666,
+      "accuracy": 0.5
+    },
+    "phish_classic": {
+      "n": 60,
+      "detection_rate": 1.0,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "phish_real": {
+      "n": 1488,
+      "detection_rate": 0.9905913978494624,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 0.9952734638757595,
+      "accuracy": 0.9905913978494624
+    },
+    "seconds": 18.9,
+    "engine": "ml"
+  },
+  "full": {
+    "overall": {
+      "n": 3966,
+      "detection_rate": 0.9850119904076738,
+      "false_positive_rate": 0.025239338555265448,
+      "precision": 0.9659024103468548,
+      "f1": 0.9753636093796377,
+      "accuracy": 0.9790721129601614
+    },
+    "injection": {
+      "n": 60,
+      "detection_rate": 1.0,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "legit": {
+      "n": 60,
+      "detection_rate": null,
+      "false_positive_rate": 0.0,
+      "precision": null,
+      "f1": null,
+      "accuracy": 1.0
+    },
+    "legit_real": {
+      "n": 2238,
+      "detection_rate": null,
+      "false_positive_rate": 0.025915996425379804,
+      "precision": null,
+      "f1": null,
+      "accuracy": 0.9740840035746202
+    },
+    "phish_ai": {
+      "n": 60,
+      "detection_rate": 0.7833333333333333,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 0.8785046728971964,
+      "accuracy": 0.7833333333333333
+    },
+    "phish_classic": {
+      "n": 60,
+      "detection_rate": 1.0,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "phish_real": {
+      "n": 1488,
+      "detection_rate": 0.9919354838709677,
+      "false_positive_rate": null,
+      "precision": 1.0,
+      "f1": 0.9959514170040485,
+      "accuracy": 0.9919354838709677
+    },
+    "seconds": 18.6,
+    "engine": "rules+ml+injection (LLM unavailable)"
+  }
+}
